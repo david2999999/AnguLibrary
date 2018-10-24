@@ -6,6 +6,7 @@ import { WarningButtonComponent } from './buttons/warning-button/warning-button.
 import { DangerButtonComponent } from './buttons/danger-button/danger-button.component';
 import { SuccessButtonComponent } from './buttons/success-button/success-button.component';
 import { PrimaryButtonComponent } from './buttons/primary-button/primary-button.component';
+import { MultiOptionButtonComponent } from './buttons/multi-option-button/multi-option-button.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PrimaryButtonComponent } from './buttons/primary-button/primary-button.
     WarningButtonComponent,
     DangerButtonComponent,
     SuccessButtonComponent,
-    PrimaryButtonComponent
+    PrimaryButtonComponent,
+    MultiOptionButtonComponent
   ],
   imports: [
     BrowserModule

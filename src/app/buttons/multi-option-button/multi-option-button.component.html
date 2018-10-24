@@ -1,0 +1,21 @@
+<ng-container [ngSwitch]="buttonType">
+  <div *ngSwitchCase="'warning'" class="multi-button warning-button">
+    <p class="multi-button__text">{{buttonText}}</p>
+  </div>
+
+  <div *ngSwitchCase="'danger'" class="multi-button danger-button">
+    <p class="multi-button__text">{{buttonText}}</p>
+  </div>
+
+  <div *ngSwitchCase="'primary'" class="multi-button primary-button">
+    <p class="multi-button__text">{{buttonText}}</p>
+  </div>
+
+  <div *ngSwitchCase="'success'" class="multi-button success-button">
+    <p class="multi-button__text">{{buttonText}}</p>
+  </div>
+
+  <div *ngSwitchDefault class="multi-button default-button">
+    <p class="multi-button__text">Default</p>
+  </div>
+</ng-container>

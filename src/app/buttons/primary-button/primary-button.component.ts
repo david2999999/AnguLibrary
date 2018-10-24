@@ -6,17 +6,13 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./primary-button.component.css']
 })
 export class PrimaryButtonComponent implements OnInit {
-  @Input() textOnButton: string;
+  @Input() buttonText: string;
   text: string;
 
   constructor() { }
 
   ngOnInit() {
-    if (!this.textOnButton) {
-      this.text = 'Primary';
-    } else {
-      this.text = this.textOnButton;
-    }
+    this.text = this.buttonText ? this.buttonText : 'Primary';
   }
 
 }

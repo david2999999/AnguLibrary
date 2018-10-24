@@ -6,17 +6,13 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./danger-button.component.css']
 })
 export class DangerButtonComponent implements OnInit {
-  @Input() textOnButton: string;
+  @Input() buttonText: string;
   text: string;
 
   constructor() { }
 
   ngOnInit() {
-    if (!this.textOnButton) {
-      this.text = 'Danger';
-    } else {
-      this.text = this.textOnButton;
-    }
+    this.text = this.buttonText ? this.buttonText : 'Danger';
   }
 
 }

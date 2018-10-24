@@ -6,17 +6,13 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./success-button.component.css']
 })
 export class SuccessButtonComponent implements OnInit {
-  @Input() textOnButton: string;
+  @Input() buttonText: string;
   text: string;
 
   constructor() { }
 
   ngOnInit() {
-    if (!this.textOnButton) {
-      this.text = 'Success';
-    } else {
-      this.text = this.textOnButton;
-    }
+    this.text = this.buttonText ? this.buttonText : 'Success';
   }
 
 }
