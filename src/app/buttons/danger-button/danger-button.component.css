@@ -1,6 +1,6 @@
-.warning-button {
+.danger-button {
   display: block;
-  background-color: #f1c40f;
+  background-color: #e74c3c;
   padding: 1px 30px;
   outline: none;
   border-radius: 3px;
@@ -8,12 +8,12 @@
   transition: all .3s;
 }
 
-.warning-button:hover{
+.danger-button:hover{
   cursor: pointer;
-  background: #f39c12;
+  background: #c0392b;
 }
 
-.warning-button__text{
+.danger-button__text{
   color: white;
   font-weight: bold;
   font-size: 10px;
