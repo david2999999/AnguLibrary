@@ -1,6 +1,6 @@
-.danger-button {
+.success-button {
   display: block;
-  background-color: #e74c3c;
+  background-color: #2ecc71;
   padding: 1px 30px;
   outline: none;
   border-radius: 3px;
@@ -9,12 +9,12 @@
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.danger-button:hover{
+.success-button:hover{
   cursor: pointer;
-  background: #c0392b;
+  background: #27ae60;
 }
 
-.danger-button__text{
+.success-button__text{
   color: white;
   font-weight: bold;
   font-size: 10px;

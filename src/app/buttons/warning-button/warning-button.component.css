@@ -6,6 +6,7 @@
   border-radius: 3px;
   width: fit-content;
   transition: all .3s;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .warning-button:hover{
