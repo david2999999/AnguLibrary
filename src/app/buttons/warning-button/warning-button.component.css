@@ -1,0 +1,20 @@
+.warning-button {
+  display: block;
+  background-color: #e74c3c;
+  padding: 1px 30px;
+  outline: none;
+  border-radius: 3px;
+  width: fit-content;
+  transition: all .3s;
+}
+
+.warning-button:hover{
+  cursor: pointer;
+  background: #c0392b;
+}
+
+.warning-button__text{
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
