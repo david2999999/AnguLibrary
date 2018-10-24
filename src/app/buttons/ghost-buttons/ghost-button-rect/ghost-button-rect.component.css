@@ -1,0 +1,27 @@
+.ghost-button {
+  background-color: transparent;
+  border: 1px solid white;
+  width: fit-content;
+  display: block;
+  padding: 5px 30px;
+  outline: none;
+  transition: all .3s;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-image: linear-gradient(45deg, #7ed6df, #686de0, #3498db);
+  border-image-slice: 1;
+}
+
+.ghost-button:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.ghost-button__text {
+  font-weight: bold;
+  font-size: 10px;
+  background: -webkit-linear-gradient(#7ed6df, #686de0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+}
