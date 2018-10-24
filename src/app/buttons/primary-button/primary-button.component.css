@@ -1,0 +1,21 @@
+.primary-button {
+  display: block;
+  background-color: #3498db;
+  padding: 1px 30px;
+  outline: none;
+  border-radius: 3px;
+  width: fit-content;
+  transition: all .3s;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.primary-button:hover{
+  cursor: pointer;
+  background: #2980b9;
+}
+
+.primary-button__text{
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
