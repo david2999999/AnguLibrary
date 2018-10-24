@@ -1,6 +1,6 @@
 .multi-button {
   display: inline-block;
-  padding: 1px 30px;
+  padding: 1px 40px;
   outline: none;
   border-radius: 3px;
   width: fit-content;
@@ -11,7 +11,7 @@
 .multi-button__text {
   color: white;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .warning-button {

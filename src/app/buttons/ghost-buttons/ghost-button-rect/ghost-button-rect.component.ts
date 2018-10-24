@@ -12,7 +12,7 @@ export class GhostButtonRectComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.text = this.buttonText ? this.buttonText : 'Ghost';
+    this.text = this.buttonText ? this.buttonText : 'Ghost Button';
   }
 
 }
